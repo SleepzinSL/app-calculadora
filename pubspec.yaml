@@ -1,0 +1,21 @@
+name: calculadora
+description: Uma calculadora simples em Flutter
+
+publish_to: 'none' # Remover essa linha se for um projeto público no GitHub
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"  # Defina uma versão mínima e máxima compatível com seu código
+
+dependencies:
+  flutter:
+    sdk: flutter  # Depende do SDK do Flutter
+  expressions: ^0.2.5+2  # Usando uma versão compatível do pacote expressions
+  cupertino_icons: ^1.0.8  # Pacote para ícones do estilo Cupertino
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0  # Lints para garantir boas práticas no código
+
+flutter:
+  uses-material-design: true
